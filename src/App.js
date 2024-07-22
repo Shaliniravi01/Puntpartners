@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import fonts from './fonts.json'; // Ensure your fonts.json is correctly placed in the src folder
-import './fonts.css'; // Ensure the fonts.css file is included
+import fonts from './fonts.json'; 
+import './fonts.css'; 
 
 function App() {
   const [fontFamily, setFontFamily] = useState('');
@@ -10,7 +10,6 @@ function App() {
   const [text, setText] = useState('');
 
   useEffect(() => {
-    // Load settings from localStorage on component mount
     const savedSettings = JSON.parse(localStorage.getItem('textEditorSettings'));
     if (savedSettings) {
       setFontFamily(savedSettings.fontFamily);
@@ -21,7 +20,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    // Save settings to localStorage whenever they change
+    
     const settings = {
       text,
       fontFamily,
@@ -32,7 +31,7 @@ function App() {
   }, [text, fontFamily, fontWeight, isItalic]);
 
   useEffect(() => {
-    // Apply font settings whenever fontFamily, fontWeight, or isItalic change
+    
     applyFont();
   }, [fontFamily, fontWeight, isItalic]);
 
