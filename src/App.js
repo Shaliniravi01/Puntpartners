@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import fonts from './fonts.json'; // Ensure your fonts.json is correctly placed in the src folder
+import './fonts.css'; // Ensure the fonts.css file is included
 
 function App() {
   const [fontFamily, setFontFamily] = useState('');
@@ -9,6 +10,7 @@ function App() {
   const [text, setText] = useState('');
 
   useEffect(() => {
+    // Load settings from localStorage on component mount
     const savedSettings = JSON.parse(localStorage.getItem('textEditorSettings'));
     if (savedSettings) {
       setFontFamily(savedSettings.fontFamily);
@@ -19,6 +21,7 @@ function App() {
   }, []);
 
   useEffect(() => {
+    // Save settings to localStorage whenever they change
     const settings = {
       text,
       fontFamily,
@@ -28,12 +31,16 @@ function App() {
     localStorage.setItem('textEditorSettings', JSON.stringify(settings));
   }, [text, fontFamily, fontWeight, isItalic]);
 
+  useEffect(() => {
+    // Apply font settings whenever fontFamily, fontWeight, or isItalic change
+    applyFont();
+  }, [fontFamily, fontWeight, isItalic]);
+
   const handleFontFamilyChange = (e) => {
     const selectedFamily = e.target.value;
     setFontFamily(selectedFamily);
-    const closestVariant = findClosestVariant(selectedFamily, fontWeight, isItalic);
-    setFontWeight(closestVariant.weight);
-    setIsItalic(closestVariant.italic);
+    setFontWeight('');
+    setIsItalic(false);
   };
 
   const handleFontWeightChange = (e) => {
@@ -42,32 +49,6 @@ function App() {
 
   const handleItalicToggle = () => {
     setIsItalic(!isItalic);
-  };
-
-  const findClosestVariant = (selectedFamily, currentWeight, currentItalic) => {
-    const variants = fonts[selectedFamily] || {};
-    const availableWeights = Object.keys(variants);
-
-    let closestWeight = '';
-    let closestItalic = false;
-
-    // Check if the exact variant exists
-    const exactVariant = `${currentWeight}${currentItalic ? 'italic' : ''}`;
-    if (variants.hasOwnProperty(exactVariant)) {
-      return { weight: currentWeight, italic: currentItalic };
-    }
-
-    // Find closest italic variant
-    if (currentItalic) {
-      closestWeight = availableWeights.find(weight => weight.includes('italic')) || '';
-      if (closestWeight) {
-        return { weight: closestWeight.replace('italic', ''), italic: true };
-      }
-    }
-
-    // Find closest weight
-    closestWeight = availableWeights.length ? availableWeights[0].replace('italic', '') : '';
-    return { weight: closestWeight, italic: false };
   };
 
   const getFontWeights = () => {
@@ -83,26 +64,13 @@ function App() {
   };
 
   const applyFont = () => {
-    const fontUrl = getFontUrl(fontFamily, fontWeight, isItalic);
-    if (fontUrl) {
-      let link = document.getElementById('font-link');
-      if (!link) {
-        link = document.createElement('link');
-        link.id = 'font-link';
-        link.rel = 'stylesheet';
-        document.head.appendChild(link);
-      }
-      link.href = fontUrl;
-    }
     const editor = document.getElementById('text-editor');
-    editor.style.fontFamily = fontFamily;
-    editor.style.fontWeight = fontWeight;
-    editor.style.fontStyle = isItalic ? 'italic' : 'normal';
+    if (editor) {
+      editor.style.fontFamily = fontFamily;
+      editor.style.fontWeight = fontWeight;
+      editor.style.fontStyle = isItalic ? 'italic' : 'normal';
+    }
   };
-
-  useEffect(() => {
-    applyFont();
-  }, [fontFamily, fontWeight, isItalic]);
 
   const handleReset = () => {
     setFontFamily('');
@@ -123,9 +91,7 @@ function App() {
 
   return (
     <div>
-    
-      <i><p className="header">Text Editor</p></i>
-      <center>
+      <p className="header">Text Editor</p>
       <div className="editor-container">
         <div className="controls">
           <select id="font-family-selector" value={fontFamily} onChange={handleFontFamilyChange}>
@@ -150,7 +116,7 @@ function App() {
               onClick={handleItalicToggle}
               disabled={!fontFamily || !getFontWeights().some((weight) => weight.includes('italic'))}
             ></div>
-            <i><label className="italic-toggle">Italic</label></i>
+            <label className="italic-toggle">Italic</label>
           </div>
         </div>
         <textarea
@@ -158,15 +124,12 @@ function App() {
           placeholder="Type your text here..."
           value={text}
           onChange={(e) => setText(e.target.value)}
-          style={{ fontFamily, fontWeight, fontStyle: isItalic ? 'italic' : 'normal' }}
         ></textarea>
         <div className="buttons">
           <button onClick={handleReset}>Reset</button>
           <button onClick={handleSave}>Save</button>
         </div>
       </div>
-      <p className="footer"> 2024 © All rights received.</p>
-      </center>
     </div>
   );
 }

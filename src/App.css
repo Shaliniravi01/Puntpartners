@@ -1,35 +1,35 @@
-
+body{
+  overflow-x: hidden;
+}
 .editor-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 620px; /* Increased height */
+  height: 620px; 
   margin: 0 auto;
   padding: 20px;
   border: 2px solid #ccc;
   border-radius: 0px;
   background-color: black;
 }
-
 .controls {
   display: flex;
   gap: 50px;
   margin-bottom: 30px;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 15px;
 }
-
 textarea {
   width: 60%;
-  height: 380px; /* Increased height */
+  height: 380px; 
   padding: 10px;
   border: 2px solid white;
   border-radius: 8px;
   font-size: 20px;
   background-color: rgb(14, 14, 14);
   color: white;
-  font-family: inherit; /* Inherited font family */
+  font-family: inherit; 
 }
 
 .buttons {
@@ -140,4 +140,12 @@ button:active {
   margin-bottom: 0px;
   padding:5px;
 
+}
+
+span{
+  color:#B0E0E6;
+  text-align:right;
+  margin-left:930px;
+  font-size: 28px;
+justify-content: center;
 }
