@@ -91,7 +91,7 @@ function App() {
 
   return (
     <div>
-      <p className="header">Text Editor</p>
+      <i><p className="header">Text Editor<span><b>Welcome</b></span></p></i>
       <div className="editor-container">
         <div className="controls">
           <select id="font-family-selector" value={fontFamily} onChange={handleFontFamilyChange}>
@@ -116,7 +116,7 @@ function App() {
               onClick={handleItalicToggle}
               disabled={!fontFamily || !getFontWeights().some((weight) => weight.includes('italic'))}
             ></div>
-            <label className="italic-toggle">Italic</label>
+            <i><label className="italic-toggle">Italic</label></i>
           </div>
         </div>
         <textarea
@@ -130,6 +130,7 @@ function App() {
           <button onClick={handleSave}>Save</button>
         </div>
       </div>
+      <p className="footer">2024  ©  Punt-Partners</p>
     </div>
   );
 }

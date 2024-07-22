@@ -293,4 +293,686 @@
     font-weight: 400;
     src: url('https://fonts.gstatic.com/s/alexbrush/v14/3Y4c5rVhdMGRZxF7UJHqec0TlcF__AE5Zio7jC4F3m5e5ALAFPclbsc4PoNx_ufXtN7sO_LrRHoBOVPjgrS5E.woff2') format('woff2');
   }
+  @font-face {
+    font-family: 'Almendra Display';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/almendradisplay/v26/0FlPVOGWl1Sb4O3tETtADHRRlZhzbSjUTgWoz34.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Almendra SC';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/almendrasc/v25/Iure6Yx284eebowr7hbyTaZOrLRi4mQ1.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 100;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd9OO5gr1EI_io6n5_B.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 200;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd9uO9gr1EI_io6n5_B.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 300;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd9Zu9gr1EI_io6n5_B.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd9OO9gr1EI_io6n5_B.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 500;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd9Cu9gr1EI_io6n5_B.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 600;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd95uhgr1EI_io6n5_B.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd93-hgr1EI_io6n5_B.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 800;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd9uOhgr1EI_io6n5_B.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 900;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpHtKqkOwdO2aOIwhWudEWpx_zq_Xna-Xd9kehgr1EI_io6n5_B.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 100;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8Ky46mEK9CsYm4fA1Ts.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 200;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8Kw462EK9CsYm4fA1Ts.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 300;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8Kzm62EK9CsYm4fA1Ts.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 400;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8Ky462EK9CsYm4fA1Ts.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 500;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8KyK62EK9CsYm4fA1Ts.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 600;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8Kxm7GEK9CsYm4fA1Ts.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 700;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8Kxf7GEK9CsYm4fA1Ts.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 800;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8Kw47GEK9CsYm4fA1Ts.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans';
+    font-weight: 900;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/alumnisans/v16/nwpBtKqkOwdO2aOIwhWudG-g9QMylBJAV3Bo8KwR7GEK9CsYm4fA1Ts.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans Collegiate One';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/alumnisanscollegiateone/v2/MQpB-XChK8G5CtmK_AuGxQrdNvPSXkn0RM-XqjWWhgddwjmtwHtb.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans Collegiate One';
+    font-weight: 400;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/alumnisanscollegiateone/v2/MQpD-XChK8G5CtmK_AuGxQrdNvPSXkn0RM-XqjWWhgdY8junx1lZHFQ.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans Inline One';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/alumnisansinlineone/v2/RrQBbpJx9zZ3IXTBOASKp5gJAetBdaihcjbpP3cTc5zyfY0.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans Inline One';
+    font-weight: 400;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/alumnisansinlineone/v2/RrQDbpJx9zZ3IXTBOASKp5gJAetBdaihcjbpP3IjcZb1X49MrA.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans Pinstripe';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/alumnisanspinstripe/v2/ZgNNjOFFPq_AUJD1umyS30W-Xub8zD1ObheDZb9Jh8PQ5g.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Alumni Sans Pinstripe';
+    font-weight: 400;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/alumnisanspinstripe/v2/ZgNDjOFFPq_AUJD1umyS30W-Xub8zD1ObheDYI9LjcTy5OcZ.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amarante';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/amarante/v23/xMQXuF1KTa6EvGx9bp-wAXvimy-a.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amaranth';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/amaranth/v18/KtkuALODe433f0j1zMnFHdCIwWzX.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amaranth';
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/amaranth/v18/KtkpALODe433f0j1zMF-OMWl42H9FYud.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amaranth';
+    font-weight: 400;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/amaranth/v18/KtkoALODe433f0j1zMnALdKCxk7VH4M.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amaranth';
+    font-weight: 700;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/amaranth/v18/KtkrALODe433f0j1zMnAJWmn02P3EqmfVY4.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amatic SC';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/amaticsc/v24/TUZyzwprpvBS1izr_vOECuSfU5cP1Q.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amatic SC';
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/amaticsc/v24/TUZ3zwprpvBS1izr_vOMscGKfrUC_2fi-Q.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amazon Ember';
+    font-weight: 100;
+    src: url('https://rephrase-assets.s3.ap-south-1.amazonaws.com/fonts/ember/Amazon+Ember+Thin.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Amazon Ember';
+    font-weight: 300;
+    src: url('https://rephrase-assets.s3.ap-south-1.amazonaws.com/fonts/ember/Amazon+Ember+Light.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Amazon Ember';
+    font-weight: 400;
+    src: url('https://rephrase-assets.s3.ap-south-1.amazonaws.com/fonts/ember/Amazon+Ember.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Amazon Ember';
+    font-weight: 500;
+    src: url('https://rephrase-assets.s3.ap-south-1.amazonaws.com/fonts/ember/Amazon+Ember+Medium.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Amazon Ember';
+    font-weight: 700;
+    src: url('https://rephrase-assets.s3.ap-south-1.amazonaws.com/fonts/ember/Amazon+Ember+Bold.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Amazon Ember';
+    font-weight: 100;
+    font-style: italic;
+    src: url('https://rephrase-assets.s3.ap-south-1.amazonaws.com/fonts/ember/Amazon+Ember+Thin+Italic.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Amazon Ember';
+    font-weight: 300;
+    font-style: italic;
+    src: url('https://rephrase-assets.s3.ap-south-1.amazonaws.com/fonts/ember/Amazon+Ember+Light+Italic.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Amazon Ember';
+    font-weight: 400;
+    font-style: italic;
+    src: url('https://rephrase-assets.s3.ap-south-1.amazonaws.com/fonts/ember/Amazon+Ember+Italic.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Amazon Ember';
+    font-weight: 500;
+    font-style: italic;
+    src: url('https://rephrase-assets.s3.ap-south-1.amazonaws.com/fonts/ember/Amazon+Ember+Medium+Italic.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Amazon Ember';
+    font-weight: 700;
+    font-style: italic;
+    src: url('https://rephrase-assets.s3.ap-south-1.amazonaws.com/fonts/ember/Amazon+Ember+Bold+Italic.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Amethysta';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/amethysta/v16/rP2Fp2K15kgb_F3ibfW4Hz-DJF4e8A.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amiko';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/amiko/v12/WwkQxPq1DFK04uqieV_uMogI.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amiko';
+    font-weight: 600;
+    src: url('https://fonts.gstatic.com/s/amiko/v12/WwkdxPq1DFK04uJ9XUrDEIUiUto4.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amiko';
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/amiko/v12/WwkdxPq1DFK04uIZXErDEIUiUto4.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amiri';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/amiri/v27/J7aRnpd8CGxBHpUutLMS7JNK.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amiri';
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/amiri/v27/J7acnpd8CGxBHp2VkaY_zp5gGDAb.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amiri';
+    font-weight: 400;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/amiri/v27/J7afnpd8CGxBHpUrhLEY67FIEjg.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amiri';
+    font-weight: 700;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/amiri/v27/J7aanpd8CGxBHpUrjAo9_pxqHxIZrCE.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amiri Quran';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/amiriquran/v7/_Xmo-Hk0rD6DbUL4_vH8Zp5q5i2-sf-3.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amita';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/amita/v16/HhyaU5si9Om7PTloC_WoEoZK.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Amita';
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/amita/v16/HhyXU5si9Om7PTHTLuCFMItgT7kJ.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Anaheim';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/anaheim/v14/8vII7w042Wp87g4G4UPeEWxdO_0.woff2') format('woff2');
+  }
+  /* Andada Pro */
+@font-face {
+    font-family: 'Andada Pro';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/andadapro/v20/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DPJBb8bHr3NJ82Tvjw.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Andada Pro';
+    font-weight: 500;
+    src: url('https://fonts.gstatic.com/s/andadapro/v20/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DP7Bb8bHr3NJ82Tvjw.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Andada Pro';
+    font-weight: 600;
+    src: url('https://fonts.gstatic.com/s/andadapro/v20/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DMXAr8bHr3NJ82Tvjw.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Andada Pro';
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/andadapro/v20/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DMuAr8bHr3NJ82Tvjw.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Andada Pro';
+    font-weight: 800;
+    src: url('https://fonts.gstatic.com/s/andadapro/v20/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DNJAr8bHr3NJ82Tvjw.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Andada Pro';
+    font-weight: 400;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/andadapro/v20/HhyGU5Qi9-SuOEhPe4LtAIxwRrn9L22O2yYBRmdfLr_HJu-Xpj1bkQ.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Andada Pro';
+    font-weight: 500;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/andadapro/v20/HhyGU5Qi9-SuOEhPe4LtAIxwRrn9L22O2yYBRlVfLr_HJu-Xpj1bkQ.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Andada Pro';
+    font-weight: 600;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/andadapro/v20/HhyGU5Qi9-SuOEhPe4LtAIxwRrn9L22O2yYBRrlYLr_HJu-Xpj1bkQ.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Andada Pro';
+    font-weight: 700;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/andadapro/v20/HhyGU5Qi9-SuOEhPe4LtAIxwRrn9L22O2yYBRoBYLr_HJu-Xpj1bkQ.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Andada Pro';
+    font-weight: 800;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/andadapro/v20/HhyGU5Qi9-SuOEhPe4LtAIxwRrn9L22O2yYBRudYLr_HJu-Xpj1bkQ.woff2') format('woff2');
+  }
+  
+  /* Andika */
+  @font-face {
+    font-family: 'Andika';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/andika/v24/mem_Ya6iyW-LwqgwarYQeL8WVQ.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Andika';
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/andika/v24/mem8Ya6iyW-Lwqg40ZMFVZ0bf8pkAg.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Andika';
+    font-weight: 400;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/andika/v24/mem9Ya6iyW-Lwqgwb4YScrg0V8Bs.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Andika';
+    font-weight: 700;
+    font-style: italic;
+    src: url('https://fonts.gstatic.com/s/andika/v24/mem6Ya6iyW-Lwqgwb46pV60Zdc1GAK6b.woff2') format('woff2');
+  }
+  
+  /* Anek Bangla */
+  @font-face {
+    font-family: 'Anek Bangla';
+    font-weight: 100;
+    src: url('https://fonts.gstatic.com/s/anekbangla/v4/_gPW1R38qTExHg-17BhM6n66QhabMYB0fBKONtHhRSIUIre5mq3Ofm9YEoAq5o63rtxi4Q.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Bangla';
+    font-weight: 200;
+    src: url('https://fonts.gstatic.com/s/anekbangla/v4/_gPW1R38qTExHg-17BhM6n66QhabMYB0fBKONtHhRSIUIre5mq3Ofu9ZEoAq5o63rtxi4Q.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Bangla';
+    font-weight: 300;
+    src: url('https://fonts.gstatic.com/s/anekbangla/v4/_gPW1R38qTExHg-17BhM6n66QhabMYB0fBKONtHhRSIUIre5mq3OfjFZEoAq5o63rtxi4Q.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Bangla';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/anekbangla/v4/_gPW1R38qTExHg-17BhM6n66QhabMYB0fBKONtHhRSIUIre5mq3Ofm9ZEoAq5o63rtxi4Q.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Bangla';
+    font-weight: 500;
+    src: url('https://fonts.gstatic.com/s/anekbangla/v4/_gPW1R38qTExHg-17BhM6n66QhabMYB0fBKONtHhRSIUIre5mq3Ofl1ZEoAq5o63rtxi4Q.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Bangla';
+    font-weight: 600;
+    src: url('https://fonts.gstatic.com/s/anekbangla/v4/_gPW1R38qTExHg-17BhM6n66QhabMYB0fBKONtHhRSIUIre5mq3OfrFeEoAq5o63rtxi4Q.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Bangla';
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/anekbangla/v4/_gPW1R38qTExHg-17BhM6n66QhabMYB0fBKONtHhRSIUIre5mq3OfoheEoAq5o63rtxi4Q.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Bangla';
+    font-weight: 800;
+    src: url('https://fonts.gstatic.com/s/anekbangla/v4/_gPW1R38qTExHg-17BhM6n66QhabMYB0fBKONtHhRSIUIre5mq3Ofu9eEoAq5o63rtxi4Q.woff2') format('woff2');
+  }
+  
+  /* Anek Devanagari */
+  @font-face {
+    font-family: 'Anek Devanagari';
+    font-weight: 100;
+    src: url('https://fonts.gstatic.com/s/anekdevanagari/v8/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLDtk99gHEwpiI7FK7Q.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Devanagari';
+    font-weight: 200;
+    src: url('https://fonts.gstatic.com/s/anekdevanagari/v8/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLt79A48zY4n9D7KKhJ0.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Devanagari';
+    font-weight: 300;
+    src: url('https://fonts.gstatic.com/s/anekdevanagari/v8/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLs6L5U8kEjgPylvVxN6.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Devanagari';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/anekdevanagari/v8/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLk9vTs8xoFWzHTeYmZ8.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Devanagari';
+    font-weight: 500;
+    src: url('https://fonts.gstatic.com/s/anekdevanagari/v8/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLwco5EzQn-QGn3SYZY.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Devanagari';
+    font-weight: 600;
+    src: url('https://fonts.gstatic.com/s/anekdevanagari/v8/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLq2N8n58m1WcEXJr5PE.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Devanagari';
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/anekdevanagari/v8/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLtMoU9ajMW3nHMSU.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Devanagari';
+    font-weight: 800;
+    src: url('https://fonts.gstatic.com/s/anekdevanagari/v8/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHL5-KTL2exSxco2zAhKO.woff2') format('woff2');
+  }
+  
+  /* Anek Latin */
+  @font-face {
+    font-family: 'Anek Latin';
+    font-weight: 100;
+    src: url('https://fonts.gstatic.com/s/aneklatin/v10/cIfg2l6D87oNq5S0QsvKxsm2LEO-3CS5xeF1DZ3RvwV3wE8bUE7TA_iTWs2vcwD0YzPyIY5GHL3Bto9.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Latin';
+    font-weight: 200;
+    src: url('https://fonts.gstatic.com/s/aneklatin/v10/cIfg2l6D87oNq5S0QsvKxsm2LEO-3CS5xeF1DZ3RvwV3wE8bUE7TA_iTWt4vcwD0YzPyIY5GHL3Bto9.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Latin';
+    font-weight: 300;
+    src: url('https://fonts.gstatic.com/s/aneklatin/v10/cIfg2l6D87oNq5S0QsvKxsm2LEO-3CS5xeF1DZ3RvwV3wE8bUE7TA_iTWv3vcwD0YzPyIY5GHL3Bto9.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Latin';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/aneklatin/v10/cIfg2l6D87oNq5S0QsvKxsm2LEO-3CS5xeF1DZ3RvwV3wE8bUE7TA_iTWx5vcwD0YzPyIY5GHL3Bto9.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Latin';
+    font-weight: 500;
+    src: url('https://fonts.gstatic.com/s/aneklatin/v10/cIfg2l6D87oNq5S0QsvKxsm2LEO-3CS5xeF1DZ3RvwV3wE8bUE7TA_iTWtqvcwD0YzPyIY5GHL3Bto9.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Latin';
+    font-weight: 600;
+    src: url('https://fonts.gstatic.com/s/aneklatin/v10/cIfg2l6D87oNq5S0QsvKxsm2LEO-3CS5xeF1DZ3RvwV3wE8bUE7TA_iTWg6vcwD0YzPyIY5GHL3Bto9.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Latin';
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/aneklatin/v10/cIfg2l6D87oNq5S0QsvKxsm2LEO-3CS5xeF1DZ3RvwV3wE8bUE7TA_iTWzo7cwD0YzPyIY5GHL3Bto9.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Latin';
+    font-weight: 800;
+    src: url('https://fonts.gstatic.com/s/aneklatin/v10/cIfg2l6D87oNq5S0QsvKxsm2LEO-3CS5xeF1DZ3RvwV3wE8bUE7TA_iTW0K6cwD0YzPyIY5GHL3Bto9.woff2') format('woff2');
+  }
+  
+  /* Anek Tamil */
+  @font-face {
+    font-family: 'Anek Tamil';
+    font-weight: 100;
+    src: url('https://fonts.gstatic.com/s/anektamil/v4/FwZY7s35a1Yh5b8AdRp7p7_z5UEDzj5GzVEMzR8Bq7eI7qgxTSeYw7rK_zOjQ2ugHkjkjR63ldBSRfsyjE.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Tamil';
+    font-weight: 200;
+    src: url('https://fonts.gstatic.com/s/anektamil/v4/FwZY7s35a1Yh5b8AdRp7p7_z5UEDzj5GzVEMzR8Bq7eI7qgxTSeYw7rK_wOtQ2ugHkjkjR63ldBSRfsyjE.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Tamil';
+    font-weight: 300;
+    src: url('https://fonts.gstatic.com/s/anektamil/v4/FwZY7s35a1Yh5b8AdRp7p7_z5UEDzj5GzVEMzR8Bq7eI7qgxTSeYw7rK5Q8OQ2ugHkjkjR63ldBSRfsyjE.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Tamil';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/anektamil/v4/FwZY7s35a1Yh5b8AdRp7p7_z5UEDzj5GzVEMzR8Bq7eI7qgxTSeYw7rK7M8PQ2ugHkjkjR63ldBSRfsyjE.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Tamil';
+    font-weight: 500;
+    src: url('https://fonts.gstatic.com/s/anektamil/v4/FwZY7s35a1Yh5b8AdRp7p7_z5UEDzj5GzVEMzR8Bq7eI7qgxTSeYw7rK2lCQ02ugHkjkjR63ldBSRfsyjE.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Tamil';
+    font-weight: 600;
+    src: url('https://fonts.gstatic.com/s/anektamil/v4/FwZY7s35a1Yh5b8AdRp7p7_z5UEDzj5GzVEMzR8Bq7eI7qgxTSeYw7rK3MZQ02ugHkjkjR63ldBSRfsyjE.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Tamil';
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/anektamil/v4/FwZY7s35a1Yh5b8AdRp7p7_z5UEDzj5GzVEMzR8Bq7eI7qgxTSeYw7rK3A3Q02ugHkjkjR63ldBSRfsyjE.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Tamil';
+    font-weight: 800;
+    src: url('https://fonts.gstatic.com/s/anektamil/v4/FwZY7s35a1Yh5b8AdRp7p7_z5UEDzj5GzVEMzR8Bq7eI7qgxTSeYw7rK3NMQ02ugHkjkjR63ldBSRfsyjE.woff2') format('woff2');
+  }
+  
+  /* Anek Telugu */
+  @font-face {
+    font-family: 'Anek Telugu';
+    font-weight: 100;
+    src: url('https://fonts.gstatic.com/s/anektelegu/v4/_fJHYsRu0TzMf2bqbcTsT0w2U0R0fDFqKwcJzV8Rtq11zyNyd5PpV4osYjM5QWqZbn4bJepIUnMyXsnO4e.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Telugu';
+    font-weight: 200;
+    src: url('https://fonts.gstatic.com/s/anektelegu/v4/_fJHYsRu0TzMf2bqbcTsT0w2U0R0fDFqKwcJzV8Rtq11zyNyd5PpV4osYjQYEqZbn4bJepIUnMyXsnO4e.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Telugu';
+    font-weight: 300;
+    src: url('https://fonts.gstatic.com/s/anektelegu/v4/_fJHYsRu0TzMf2bqbcTsT0w2U0R0fDFqKwcJzV8Rtq11zyNyd5PpV4osYjM5Q4e0sUvJX9wm0Yz7oV9dU.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Telugu';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/anektelegu/v4/_fJHYsRu0TzMf2bqbcTsT0w2U0R0fDFqKwcJzV8Rtq11zyNyd5PpV4osYjB3sQZbn4bJepIUnMyXsnO4e.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Telugu';
+    font-weight: 500;
+    src: url('https://fonts.gstatic.com/s/anektelegu/v4/_fJHYsRu0TzMf2bqbcTsT0w2U0R0fDFqKwcJzV8Rtq11zyNyd5PpV4osYjA4SgZbn4bJepIUnMyXsnO4e.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Telugu';
+    font-weight: 600;
+    src: url('https://fonts.gstatic.com/s/anektelegu/v4/_fJHYsRu0TzMf2bqbcTsT0w2U0R0fDFqKwcJzV8Rtq11zyNyd5PpV4osYjM3eQZbn4bJepIUnMyXsnO4e.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Telugu';
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/anektelegu/v4/_fJHYsRu0TzMf2bqbcTsT0w2U0R0fDFqKwcJzV8Rtq11zyNyd5PpV4osYjM4MQZbn4bJepIUnMyXsnO4e.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Telugu';
+    font-weight: 800;
+    src: url('https://fonts.gstatic.com/s/anektelegu/v4/_fJHYsRu0TzMf2bqbcTsT0w2U0R0fDFqKwcJzV8Rtq11zyNyd5PpV4osYjMZMQZbn4bJepIUnMyXsnO4e.woff2') format('woff2');
+  }
+  
+  /* Anek Thai */
+  @font-face {
+    font-family: 'Anek Thai';
+    font-weight: 100;
+    src: url('https://fonts.gstatic.com/s/anekthai/v6/nuF_gmb3DzZ2Aol6r9k7cbYSAgg3d8w6Hh0uVW2fPzN83WvdI4lcbvwvENa5z5dnY2o5A71xxU.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Thai';
+    font-weight: 200;
+    src: url('https://fonts.gstatic.com/s/anekthai/v6/nuF_gmb3DzZ2Aol6r9k7cbYSAgg3d8w6Hh0uVW2fPzN83WvdI4lcbvwvEFwq4dPau9JzQ71xxU.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Thai';
+    font-weight: 300;
+    src: url('https://fonts.gstatic.com/s/anekthai/v6/nuF_gmb3DzZ2Aol6r9k7cbYSAgg3d8w6Hh0uVW2fPzN83WvdI4lcbvwvEIAz5dd5CEq8I71xxU.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Thai';
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/anekthai/v6/nuF_gmb3DzZ2Aol6r9k7cbYSAgg3d8w6Hh0uVW2fPzN83WvdI4lcbvwvE0wA5dAqM5dA71xxU.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Thai';
+    font-weight: 500;
+    src: url('https://fonts.gstatic.com/s/anekthai/v6/nuF_gmb3DzZ2Aol6r9k7cbYSAgg3d8w6Hh0uVW2fPzN83WvdI4lcbvwvEM7z5dd5CEq8I71xxU.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Thai';
+    font-weight: 600;
+    src: url('https://fonts.gstatic.com/s/anekthai/v6/nuF_gmb3DzZ2Aol6r9k7cbYSAgg3d8w6Hh0uVW2fPzN83WvdI4lcbvwvENM7z5dd5CEq8I71xxU.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Thai';
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/anekthai/v6/nuF_gmb3DzZ2Aol6r9k7cbYSAgg3d8w6Hh0uVW2fPzN83WvdI4lcbvwvEMn7z5dd5CEq8I71xxU.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Anek Thai';
+    font-weight: 800;
+    src: url('https://fonts.gstatic.com/s/anekthai/v6/nuF_gmb3DzZ2Aol6r9k7cbYSAgg3d8w6Hh0uVW2fPzN83WvdI4lcbvwvENK7z5dd5CEq8I71xxU.woff2') format('woff2');
+  }
   
